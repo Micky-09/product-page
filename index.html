@@ -7,6 +7,15 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+        <nav>
+            <div class="logo">BestSeller</div>
+            <div class="menu-toggle" id="menu-toggle"></div>
+                <ul class="nav-link" id="nav-link">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </nav>
         <div class="container">
             <div class="book-image">
                 <img src="book design.png" alt="Book">
@@ -18,5 +27,38 @@
               <button>Buy Now</button>
             </div>
         </div>
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-card">
+                <p>"I love this book! Keeps my design flowing. "</p>
+                <h4>- ||King</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"Simple and easy to understand. Highly recommended. "</p>
+                <h4>- Samira</h4>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="images (1).jpeg" alt="Gallery image 1">
+                <img src="images (2).jpeg" alt="Gallery image 2">
+                <img src="images (3).jpeg" alt="Gallery image 3">
+                <img src="images.jpeg" alt="Gallery image 4">
+            </div>
+        </section>
+        <section class="Contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <script src="script.js"></script>
     </body>
+    <footer>
+        <p>&copy; 2025 BestSeller. All right reserved.</p>
+    </footer>
 </html>
